@@ -143,7 +143,6 @@ header p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
 }
 
 #fotos h2 {
@@ -164,7 +163,6 @@ header p {
     text-align: center;
     padding: 10px 10px 20px 20px;
     background-color: rgb(56, 4, 77);
-    ;
     color: #ffffff;
 }
 
@@ -256,20 +254,20 @@ a {
         width: 100%;
         text-align: center;
         color: white;
+        margin-top: 20px;
     }
 
     #fotos img {
         /*limitador da resolução das fotos*/
-        width: 20%;
-        margin: 30px;
+        width: 150px;
+        margin: 80px;
     }
 
     #contato {
         /*limitadr de tamahno da imagem de contato*/
-        height: 250px;
-        height: 30vh;
+        height: 300px;
         justify-content: center;
-        min-height: 250px;
+        min-height: 50px;
     }
 
     #contato h2,
@@ -280,7 +278,9 @@ a {
     }
 
     #contato img {
-        width: 7%;
+        width: 50px;
+        max-width: 50px;
+        min-width: 25px;
     }
 
     .cookieConsentContainer {
@@ -349,4 +349,18 @@ a {
         }
     }
 
+}
+
+.container{
+    margin-top: 20px;
+    position: relative;
+    height: 600px;
+}
+.legenda{
+    position: relative;
+    left: 130px;
+    top: 250px;
+    color: white;
+    margin: 0;
+    text-align: center;
 }

@@ -257,12 +257,6 @@ a {
         margin-top: 20px;
     }
 
-    #fotos img {
-        /*limitador da resolução das fotos*/
-        width: 150px;
-        margin: 80px;
-    }
-
     #contato {
         /*limitadr de tamahno da imagem de contato*/
         height: 300px;
@@ -352,9 +346,14 @@ a {
 }
 
 .container{
+    display: inline;
     margin-top: 20px;
     position: relative;
     height: 600px;
+}
+.container img
+{
+    width: 100%;
 }
 .legenda{
     position: relative;
@@ -363,4 +362,16 @@ a {
     color: white;
     margin: 0;
     text-align: center;
+}
+#title
+{
+    color: white;
+    text-align: center;
+}
+#image_position
+{
+    margin: 70px;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
 }

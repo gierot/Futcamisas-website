@@ -158,8 +158,6 @@ header p {
 #contato {
     /*definição dos termos dentro da div de contatos*/
     display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
     padding: 10px 10px 20px 20px;
     background-color: rgb(56, 4, 77);
@@ -373,5 +371,30 @@ a {
     margin: 70px;
     display: inline-block;
     width: 180px;
+    max-width: 180px;
+    min-width: 100px;
     height: 180px;
+    max-height: 180px;
+    min-height: 100px;
+}
+.contact_position
+{
+    display: inline-block;
+}
+.contact
+{
+    background-color:rgb(56, 4, 77) ;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contact img
+{
+    width: 50px;
+    max-width: 50px;
+    min-width: 30px;
+}
+.contact h2, p
+{
+    color: white;
 }
